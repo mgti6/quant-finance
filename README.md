@@ -7,6 +7,7 @@ Quantitative finance notebooks built from scratch using only NumPy and Matplotli
 | Notebook | Description |
 |---|---|
 | `inverse_transform.ipynb` | Inverse Transform Method — generating random variables from any distribution using CDF inversion |
+| `log_returns.ipynb` | Log Returns — absolute variations vs relative returns on Saint-Gobain stock data |
 
 ## Concepts covered
 
@@ -14,11 +15,14 @@ Quantitative finance notebooks built from scratch using only NumPy and Matplotli
 - Cumulative Distribution Function (CDF) and its inverse
 - Discrete distributions — die roll simulation
 - Continuous distributions — exponential distribution
-- Finance application — modeling time between market orders
+- Absolute price variations vs relative returns
+- Financial time series analysis
 
 ## Requirements
 
 ```
 numpy
 matplotlib
+yfinance
+pandas
 ```
